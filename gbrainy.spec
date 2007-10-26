@@ -8,6 +8,7 @@ Group: Graphical desktop/GNOME
 Url: http://live.gnome.org/gbrainy
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: mono-devel
+BuildRequires: gnome-sharp2 gtk-sharp2-devel glade-sharp2
 
 %description
 gbrainy is a brain teaser game and trainer written for GNOME using Mono,
@@ -30,3 +31,20 @@ rm -fr %buildroot
 
 %clean
 rm -fr %buildroot
+
+%post
+%update_menus
+%update_icon_cache hicolor
+
+%postun
+%clean_menus
+%clean_icon_cache hicolor
+
+%files
+%defattr(-,-,root)
+%doc AUTHORS ChangeLog NEWS README
+%{_bindir}/*
+%{_datadir}/applications/*.desktop
+%{_iconsdir}/hicolor/apps/*
+%{_mandir}/man1/*
+%{_datadir}/pixmaps/*
