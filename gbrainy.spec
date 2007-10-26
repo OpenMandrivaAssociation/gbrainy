@@ -40,7 +40,7 @@ rm -fr %buildroot
 %clean_menus
 %clean_icon_cache hicolor
 
-%files
+%files -f %name.lang
 %defattr(-,-,root)
 %doc AUTHORS ChangeLog NEWS README
 %{_bindir}/*
