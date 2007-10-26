@@ -45,6 +45,6 @@ rm -fr %buildroot
 %doc AUTHORS ChangeLog NEWS README
 %{_bindir}/*
 %{_datadir}/applications/*.desktop
-%{_iconsdir}/hicolor/apps/*
+%{_iconsdir}/hicolor/*/apps/*
 %{_mandir}/man1/*
 %{_datadir}/pixmaps/*
