@@ -1,8 +1,9 @@
+%define realver 0.41
 Summary: A brain teaser game and trainer to have fun and to keep your brain trained
 Name: gbrainy
-Version: 0.3
-Release: %mkrel 3
-Source0: http://www.softcatala.org/~jmas/gbrainy/%{name}-%{version}.tar.gz
+Version: 0.4.1
+Release: %mkrel 1
+Source0: http://www.softcatala.org/~jmas/gbrainy/%{name}-%{realver}.tar.gz
 Patch0: gbrainy-0.3-fix-startup-wrapper.patch
 License: GPLv2+
 Group: Graphical desktop/GNOME
@@ -19,7 +20,7 @@ Its mission is to provide a platform for creating different kinds of
 brain-teasers and brain trainer games for GNOME.
 
 %prep
-%setup -q
+%setup -q -n%name-%realver
 %patch0 -p0 
 
 %build
