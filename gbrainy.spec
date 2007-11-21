@@ -47,5 +47,6 @@ rm -fr %buildroot
 %{_bindir}/*
 %{_datadir}/applications/*.desktop
 %{_iconsdir}/hicolor/*/apps/*
-%{_mandir}/man1/*
+%{_mandir}/man6/*
 %{_datadir}/pixmaps/*
+%{_datadir}/games/%{name}
