@@ -4,7 +4,6 @@ Name: gbrainy
 Version: 0.4.1
 Release: %mkrel 1
 Source0: http://www.softcatala.org/~jmas/gbrainy/%{name}-%{realver}.tar.gz
-Patch0: gbrainy-0.3-fix-startup-wrapper.patch
 License: GPLv2+
 Group: Graphical desktop/GNOME
 Url: http://live.gnome.org/gbrainy
@@ -21,7 +20,6 @@ brain-teasers and brain trainer games for GNOME.
 
 %prep
 %setup -q -n%name-%realver
-%patch0 -p0 
 
 %build
 %configure2_5x
