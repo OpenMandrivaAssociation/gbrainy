@@ -7,7 +7,6 @@ Source0: http://www.softcatala.org/~jmas/gbrainy/%{name}-%{realver}.tar.gz
 License: GPLv2+
 Group: Graphical desktop/GNOME
 Url: http://live.gnome.org/gbrainy
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: mono-devel
 BuildRequires: gnome-sharp2 gtk-sharp2-devel glade-sharp2
 
