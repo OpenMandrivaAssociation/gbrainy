@@ -45,6 +45,7 @@ rm -fr %buildroot
 %defattr(-,-,root)
 %doc AUTHORS ChangeLog NEWS README
 %{_bindir}/*
+%{_libexecdir}/%name/%name.exe
 %{_datadir}/applications/*.desktop
 %{_iconsdir}/hicolor/*/apps/*
 %{_mandir}/man6/*
