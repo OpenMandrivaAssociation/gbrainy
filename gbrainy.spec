@@ -1,7 +1,7 @@
-%define realver 0.41
+%define realver 0.51
 Summary: A brain teaser game and trainer to have fun and to keep your brain trained
 Name: gbrainy
-Version: 0.4.1
+Version: 0.5.1
 Release: %mkrel 1
 Source0: http://www.softcatala.org/~jmas/gbrainy/%{name}-%{realver}.tar.gz
 License: GPLv2+
