@@ -8,7 +8,9 @@ Group: Graphical desktop/GNOME
 Url: http://live.gnome.org/gbrainy
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: mono-devel
-BuildRequires: gnome-sharp2-devel gtk-sharp2-devel glade-sharp2
+BuildRequires: pkgconfig(glade-sharp-2.0)
+BuildRequires: pkgconfig(gnome-sharp-2.0)
+BuildRequires: pkgconfig(gtk-sharp-2.0)
 
 %description
 gbrainy is a brain teaser game and trainer written for GNOME using Mono,
