@@ -11,6 +11,7 @@ BuildRequires: mono-devel
 BuildRequires: pkgconfig(glade-sharp-2.0)
 BuildRequires: pkgconfig(gnome-sharp-2.0)
 BuildRequires: pkgconfig(gtk-sharp-2.0)
+BuildRequires: pkgconfig(librsvg-2.0)
 
 %description
 gbrainy is a brain teaser game and trainer written for GNOME using Mono,
