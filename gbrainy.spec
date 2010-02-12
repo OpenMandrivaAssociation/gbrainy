@@ -13,6 +13,7 @@ BuildRequires: pkgconfig(gnome-sharp-2.0)
 BuildRequires: pkgconfig(gtk-sharp-2.0)
 BuildRequires: pkgconfig(librsvg-2.0)
 BuildRequires: intltool
+BuildRequires: gnome-doc-utils >= 0.3.2
 BuildRequires: mono-addins
 
 %description
