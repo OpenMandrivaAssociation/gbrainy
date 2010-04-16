@@ -1,20 +1,20 @@
-Summary: A brain teaser game and trainer to have fun and to keep your brain trained
-Name: gbrainy
-Version: 1.40
-Release: %mkrel 1
-Source0: http://gent.softcatala.org/jmas/gbrainy/%{name}-%{version}.tar.gz
-License: GPLv2+
-Group: Graphical desktop/GNOME
-Url: http://live.gnome.org/gbrainy
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires: mono-devel
-BuildRequires: pkgconfig(glade-sharp-2.0)
-BuildRequires: pkgconfig(gnome-sharp-2.0)
-BuildRequires: pkgconfig(gtk-sharp-2.0)
-BuildRequires: pkgconfig(librsvg-2.0)
-BuildRequires: intltool
-BuildRequires: gnome-doc-utils >= 0.3.2
-BuildRequires: mono-addins
+Summary:	A brain teaser game and trainer to have fun and to keep your brain trained
+Name:		gbrainy
+Version:	1.41
+Release:	%mkrel 1
+Source0:	http://gent.softcatala.org/jmas/gbrainy/%{name}-%{version}.tar.gz
+License:	GPLv2+
+Group:		Graphical desktop/GNOME
+Url:		http://live.gnome.org/gbrainy
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	mono-devel
+BuildRequires:	pkgconfig(glade-sharp-2.0)
+BuildRequires:	pkgconfig(gnome-sharp-2.0)
+BuildRequires:	pkgconfig(gtk-sharp-2.0)
+BuildRequires:	pkgconfig(librsvg-2.0)
+BuildRequires:	intltool
+BuildRequires:	gnome-doc-utils >= 0.3.2
+BuildRequires:	mono-addins
 
 %description
 gbrainy is a brain teaser game and trainer written for GNOME using Mono,
