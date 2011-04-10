@@ -1,6 +1,6 @@
 Summary:	A brain teaser game and trainer to have fun and to keep your brain trained
 Name:		gbrainy
-Version:	1.52
+Version:	1.65
 Release:	%mkrel 1
 Source0:	http://gent.softcatala.org/jmas/%{name}/%{name}-%{version}.tar.gz
 License:	GPLv2+
@@ -53,4 +53,3 @@ rm -fr %buildroot
 %{_mandir}/man6/*
 %{_datadir}/pixmaps/*
 %{_datadir}/games/%{name}
-%{_datadir}/gnome/help/gbrainy
