@@ -4,7 +4,7 @@
 Summary:	A brain teaser game and trainer to have fun and to keep your brain trained
 Name:		gbrainy
 Version:	1.65
-Release:	4
+Release:	5
 License:	GPLv2+
 Group:		Graphical desktop/GNOME
 Url:		http://live.gnome.org/gbrainy
