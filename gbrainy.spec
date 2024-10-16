@@ -7,7 +7,7 @@ Version:	1.65
 Release:	5
 License:	GPLv2+
 Group:		Graphical desktop/GNOME
-Url:		http://live.gnome.org/gbrainy
+Url:		https://live.gnome.org/gbrainy
 Source0:	http://gent.softcatala.org/jmas/%{name}/%{name}-%{version}.tar.gz
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(glade-sharp-2.0)
